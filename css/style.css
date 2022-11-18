@@ -1,33 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body, ul {
     margin: 0px;
     padding: 0px;
-    background-color: rgb(222, 209, 241);
+    background-color: none;
 }
 a {
-    color: rgb(238, 227, 208);
+    color: rgb(255, 255, 255);
+    text-decoration-line:overline blink;
+    font-family:'Bebas Neue';
+    font-weight: 600;
+    justify-content: space-between;
+
+}
+.linkMenu {
+    color: white;
     text-decoration: none;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    transition: 0.3s;
+}
+
+.linkMenu:hover:not(.botao) {
+    font-size: 1.6em;
+    transition: 0.3s;
+    text-shadow: 4px 4px 6px #0000007a;
 }
 #header #menu a:hover {
-    background: rgb(222, 209, 241)
+    background: none;
 }
 #logo img {
     float: left;
-    height: 50px;
-    width: 120px;
+    height: 150px;
+    width: 150px;
     position: static;
-    top: 5px;
+    top: 50px;
     left: 10px;
+    border: white;
+    border-radius: 12px;
 }
 #header {
     width: 100%;
     position: relative; /* Adicionando o Position e Z-Index */
     z-index: 90;
     box-sizing: border-box;
-    height: 75px;
+    height: 120px;
     padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: rgb(25, 33, 78);
+    background: #121A3D;
+}
+#menu {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+}
+#btn-mobile {
+    display: none;
+}
+#carouselExampleInterval {
+    position: fixed;
+    z-index: 10;
+    gap: 0.5rem;
+    padding-top: none;
+    width: 100%;
+}
+#carouselExampleInterval .carousel-item img {
+    height: 540px;
+    width: 100%;        
 }
