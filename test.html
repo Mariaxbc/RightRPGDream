@@ -4,119 +4,324 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/styletest.css">
     <link rel="shortcut icon" href="./img/natural-one-d-dice-roll-icon-180552779.ico">
     <title> Site de RPG | RightRPGDream </title>
 </head>
 <body>   
-    <!--Início do menu responsivo--> 
-    <svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
-        <defs>
-            <symbol viewBox="0 0 60 60" id="icon-facebook">
-                <path d="M25.8 46.3h6.7V30H37l.6-5.6h-5.1v-2.8c0-1.5.1-2.3 2.2-2.3h2.8v-5.6H33c-5.4 0-7.3 2.7-7.3 7.3v3.4h-3.4V30h3.4v16.3zM30 60C13.4 60 0 46.6 0 30S13.4 0 30 0s30 13.4 30 30-13.4 30-30 30z"/>
-            </symbol>
-            <symbol viewBox="0 0 60 60" id="icon-linkedin">
-                <path d="M46.8 44.1V32.4c0-6.3-3.3-9.2-7.8-9.2-3.6 0-5.2 2-6.1 3.4v-2.9h-6.8c.1 1.9 0 20.4 0 20.4h6.8V32.7c0-.6 0-1.2.2-1.7.5-1.2 1.6-2.5 3.5-2.5 2.5 0 3.4 1.9 3.4 4.6V44l6.8.1zM19 20.9c2.4 0 3.8-1.6 3.8-3.5 0-2-1.5-3.5-3.8-3.5s-3.8 1.5-3.8 3.5 1.4 3.5 3.8 3.5zM30 60C13.4 60 0 46.6 0 30S13.4 0 30 0s30 13.4 30 30-13.4 30-30 30zm-7.6-15.9V23.7h-6.8v20.4h6.8z"/>
-            </symbol>
-            <symbol viewBox="0 0 60 60" id="icon-twitter">
-                  <path d="M34.2 18.3c-2.6 1-4.3 3.4-4.1 6.1l.1 1-1-.1c-3.8-.5-7.1-2.1-10-4.9L17.7 19l-.4 1c-.8 2.3-.3 4.7 1.3 6.3.8.9.6 1-.8.5-.5-.2-.9-.3-1-.2-.1.1.4 2.1.8 2.8.5 1.1 1.7 2.1 2.9 2.7l1 .5h-1.2c-1.2 0-1.2 0-1.1.5.4 1.4 2.1 2.8 3.9 3.5l1.3.4-1.1.7c-1.7 1-3.6 1.5-5.6 1.6-.9 0-1.7.1-1.7.2 0 .2 2.6 1.4 4 1.9 4.5 1.4 9.8.8 13.7-1.6 2.8-1.7 5.7-5 7-8.2.7-1.7 1.4-4.9 1.4-6.4 0-1 .1-1.1 1.2-2.3.7-.7 1.3-1.4 1.5-1.6.2-.4.2-.4-.9 0-1.8.6-2 .6-1.2-.4.6-.7 1.4-1.9 1.4-2.3 0-.1-.3 0-.7.2-.4.2-1.2.5-1.8.7l-1.1.4-1-.7c-.6-.4-1.4-.8-1.8-.9-.9-.4-2.6-.4-3.5 0zM30 60C13.4 60 0 46.6 0 30S13.4 0 30 0s30 13.4 30 30-13.4 30-30 30z"/>
-            </symbol>
-        </defs>
-    </svg>
-    
-    <div class="hero">
-        <header id="masthead" role="banner">
-          <div class="container">
-            <button class="hamburger hamburger--boring" type="button">
-              <span class="hamburger-box">
-                <span class="hamburger-inner"></span>
-              </span>
-              <span class="hamburger-label">Menu</span>
-            </button>
-          <form id="masthead-search">
-          <input type="search" name="s" aria-labelledby="search-label" placeholder="Search&hellip;" class="draw">
-            <button type="submit">&rarr;</button>
-            </form>        
-            <nav id="site-nav" role="navigation">
-              <div class="col">
-                <h4>Expertise</h4>
-                <ul>
-                  <li><a href="#">Insurance Industry</a></li>
-                  <li><a href="#">Retail Industry</a></li>
-                  <li><a href="#">Logistics Industry</a></li>
-                  <li><a href="#">Blog</a></li>
-                </ul>            
+    <!-- Aula 27/09/2022 -->
+    <!-- Início do Menu Responsivo -->
+    <header id="header">
+      <a id="logo" href="index.html"><img src="./img/RightRPGDream logo.ico" alt="Logo RightRPGDream"></a>
+      <nav id="nav">
+          <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+              <span id="hamburger"></span>
+          </button>
+          <ul id="menu" role="menu">
+              <li><a class="linkMenu" href="index.html">Home</a></li>
+              <li><a class="linkMenu" href="contato.html">Contato</a></li>
+              <li><a class="linkMenu" href="loja.html">Loja</a></li>
+              <li><a class="linkMenu" href="streaming.html">#Streaming</a></li>
+              <li><a class="linkMenu" href="recomendações.html">Recomendações</a></li>
+
+          </ul>
+      </nav>
+  </header>
+  <!-- Fim do menu responsivo -->
+  <!-- Início do Carousel Página Principal -->
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="0">
+              <img src="./img/cyberpunk.png"
+              class="d-block w-100"
+              alt="..."
+              />
+
+          </div>
+          <div class="carousel-item" data-bs-interval="0">
+              <img src="./img/god of war.jpg_large"
+              class="d-block w-100"
+              alt="..."
+              />
+
+          </div>      
+          <div class="carousel-item" data-bs-interval="0">
+              <img src="./img/osnf foto bar.jpg"
+              class="d-block w-100"
+              alt="..."
+              />
+        
+      </div>
+          <button
+              class="carousel-control-prev"
+              data-bs-target="#carouselExampleInterval"
+              type="button"
+              data-bs-slide="prev"
+          >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+          </button>
+          <button
+              class="carousel-control-next"
+              data-bs-target="#carouselExampleInterval"
+              type="button"
+              data-bs-slide="next"
+          >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+          </button>
+  </div>
+  <!-- Fim do Carousel da Página Principal-->
+  <!-- Início do Banner -->
+  <div class="section-banner-home">
+      <div class="container-fluid">
+          <div class="row m-0">
+              <div class="col-12 col-md-6">
+                  <figure>
+                      <img src="./img/D&D.jpg" class="img-fluid" 
+                      alt="banner-home">
+
+                  </figure>
               </div>
-              <div class="col">
-                <h4>Results</h4>
-                <ul>
-                  <li><a href="#">Case Studies</a></li>
-                  <li><a href="#">Client Partners</a></li>
-                </ul> 
+              <div class="col-12 col-md-6">
+                  <section class="texto-banner d-none d-md-block">
+                      <h1>Se aventure conosco!</h1>
+                      <p class="d-none d-md-block">Os RPG's, ou Role-Playing Game, são jogos nos quais você consegue explorar, fazer missões e se aventurar com vários amigos em um novo mundo fictício. Você pode jogar de forma online ou com tabuleiros, na segunda situação é necessário escrever um roteiro sobre quem são os personagens e o que irá acontecer de acordo com o rumo dos personagens que são controlados por seus amigos. Para saber mais basta apertar o botão abaixo.</p>
+                      <a href="#">Saiba mais...</a>
+                  </section>
               </div>
-              <div class="col">
-                <h4>Company</h4>
-                <ul>
-                  <li><a href="#">Our Story</a></li>
-                  <li><a href="#">Our Team</a></li>
-                  <li><a href="#">Our Culture</a></li>
-                  <li><a href="#">News</a></li>
-                  <li><a href="#">Join Us</a></li>
-                </ul>             
+          </div>
+      </div>
+  </div>
+  <!-- Fim Banner -->
+  <!-- Início Área Destaque-->
+  <div class="destaque">
+      <div class="container">
+          <div class="row d-flex justify-content-center">
+              <!-- Início da tag section com texto de destaque -->
+              <section class="col-12">
+                  <h2>Conheça alguns desses jogos! </h2>
+                  <p> Aqui você irá encontrar alguns exemplos desses jogos, que definitivamente valem a pena gastar um tempinho se divertindo com eles, alguns multiplayers, outros singleplayers, ou até mesmo os dois!</p>
+              </section>
+              <!-- Fim da tag section com o texto em destaque-->
+              <!-- Início Imagem 1-->
+              <div class="col-6 col-md-2 pr-0">
+                  <figure>
+                      <a href="Rpg.html"><img src="./img/genshim.jpg" 
+                      alt="Galeria" width="100%" ></a>
+                      <figcaption>Jogo: Genshim Impact <br> Ano: 2020 </figcaption>
+                  </figure>
               </div>
-              <div class="col">
-                <h4>Approach</h4>
-                <ul>
-                  <li><a href="#">Digital Transformation</a></li>
-                  <li><a href="#">Digital Readiness Tool</a></li>
-                  <li><a href="#">Solution Partners</a></li>
-                </ul>               
+              <!--Fim imagem 1-->
+              <!-- Início Imagem 2-->
+              <div class="col-6 col-md-2 pr-0">
+                  <figure>
+                      <a href="Rpg.html"><img src="./img/elden ring.jpg" 
+                      alt="Galeria" width="100%"></a>
+                      <figcaption>Jogo: Elden Ring <br> Ano: 2022 </figcaption>
+                  </figure>
               </div>
-              <div class="col">
-                <ul class="social">
-                  <li><a href=""><svg title="Facebook"><use xlink:href="#icon-facebook"></use></svg></a></li>
-                  <li><a href=""><svg title="Twitter"><use xlink:href="#icon-twitter"></use></svg></a></li>
-                  <li><a href=""><svg title="LinkedIn"><use xlink:href="#icon-linkedin"></use></svg></a></li>
-                </ul>
+              <!--Fim imagem 2-->
+              <!-- Início Imagem 3-->
+              <div class="col-6 col-md-2 pr-0">
+                  <figure>
+                      <a href="Rpg.html"><img src="./img/calamidade.jpg" 
+                      alt="Galeria" width="100%"></a>
+                      <figcaption>Jogo: RPG Calamidade <br> Ano: 2021</figcaption>
+                  </figure>
               </div>
-          </nav>
-        </div>
-      </header>
-    </div>
-    <!-- Fim do menu responsivo -->
-    <!-- Início do carrosel da página principal -->
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="500">
-                <img src="./img/god of war.jpg_large"
-                class="d-block w-100"
-                alt="..."
-                />
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="500">
-                <img src="./img/osnf foto bar.jpg"
-                class="d-block w-100"
-                alt="..."
-                />
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="500">
-                <img src="./img/Stardew Valley.png"
-                class="d-block w-100"
-                alt="..."
-                />
-        <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="500">
-                <img src="./img/cyberpunk.png"
-                alt="..."
-                />
-            </div>
-        </div>        
-    </div>
-<!-- Fim do Carousel da Página Principal-->
-    
+              <!--Fim imagem 3-->
+              <!-- Início Imagem 4-->
+              <div class="col-6 col-md-2 pr-0">
+                  <figure>
+                      <a href="Rpg.html"><img src="./img/lol.jpg" 
+                      alt="Galeria" width="100%"></a>
+                      <figcaption>Jogo: League of Legends <br> Ano: 2009 </figcaption>
+                  </figure>
+              </div>
+              <!--Fim imagem 4-->
+              <!-- Início Imagem 5-->
+              <div class="col-6 col-md-2 pr-0">
+                  <figure>
+                      <a href="Rpg.html"><img src="./img/Stardew Valley.png" 
+                      alt="Galeria" width="100%"></a>
+                      <figcaption>Jogo: Stardew Valley<br> Ano: 2016 </figcaption>
+                  </figure>
+              </div>
+              <!--Fim imagem 5-->
+              <!--Início saiba mais -->
+              <div class="col-12">
+                  <a href="#">Saiba Mais!</a>
+              </div>
+              <!--Fim saiba mais-->
+          </div>
+      </div>
+  </div>
+  <!-- Início área novidades -->
+  <div class="novidades">
+      <div class="container-fluid">
+          <div class="row">
+              <!-- Início texto novidades-->
+              <div class="col-md-6">
+                  <section class="text-body">
+                      <h2>Veja nossos destaques!</h2>
+                      <p>Separamos a seguir vários RPG's, nos quais você pode jogar, recomendar para seus amigos ou apenas assistir. A experiência com certeza irá valer a pena, você pode sentir uma mistura de emoções, criar amizades e inimizades, tudo depende de você, se quiser mais recomendações basta apertar o botão abaixo!</p>
+                      <a class="btn-banner" href="#" target="_blank">Saiba Mais!</a>
+                  </section>
+              </div>
+              <!-- Fim texto novidades -->
+              <!-- Início imagem novidades -->
+              <div class="col-md-6">
+                  <figure>
+                      <img src="./img/pessoas jogando rpg.jpg" class="img-fluid" 
+                      alt="banner-home">
+                  </figure>
+              </div>
+              <!-- Fim imagem novidades -->
+          </div>
+      </div>
+  </div>
+  <!-- Início galeria -->
+  <div class="galeria d-flex align-items-center">
+      <div class="container">
+          <div class="row">
+              <!-- Início texto galerias -->
+              <div class="col-12">
+                  <section class="texto-galeria">
+                      <h2>Conheça nossa galeria!</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus optio nihil rerum, natus aliquam veritatis ullam quidem corporis delectus doloribus, eos quia deleniti expedita? Sunt corporis harum rerum minus repellat?</p>
+                  </section>
+              </div>
+              <!-- Fim texto galerias -->
+              <!-- Início imagem  1 da galerias-->
+              <div class="gallery col-6 col-md-3">
+                  <img src="./img/Selection/harry potter e a pedra filosofal.jpg" class="img-fluid" 
+                  alt="img-galeria">
+              </div>
+              <!-- Fim imagem 1 da galeria -->
+              <!-- Início imagem  2 da galerias-->
+              <div class="gallery col-6 col-md-3">
+                  <img src="./img/Selection/harry potter e a camara secreta.jpg" class="img-fluid" 
+                  alt="img-galeria">
+              </div>
+              <!-- Fim imagem 2 da galeria -->
+              <!-- Início imagem  3 da galerias-->
+              <div class="gallery col-6 col-md-3">
+                  <img src="./img/Selection/harry potter e o prisioneiro de azkaban.jpg" class="img-fluid" 
+                  alt="img-galeria">
+              </div>
+              <!-- Fim imagem 3 da galeria -->
+              <!-- Início imagem  4 da galerias-->
+              <div class="gallery col-6 col-md-3">
+                  <img src="./img/Selection/harry potter e o calice de fogo.jpg" class="img-fluid" 
+                  alt="img-galeria">
+              </div>
+              <!-- Fim imagem 4 da galeria -->
+              <!-- Início imagem  5 da galerias-->
+              <div class="gallery col-6 col-md-3">
+                  <img src="./img/Selection/harry potter e a ordem da fenix.jpg" class="img-fluid" 
+                  alt="img-galeria">
+              </div>
+              <!-- Fim imagem 5 da galeria -->
+              <!-- Início imagem  6 da galerias-->
+              <div class="gallery col-6 col-md-3">
+                  <img src="./img/Selection/harry potter e o enigma do principe.jpg" class="img-fluid" 
+                  alt="img-galeria">
+              </div>
+              <!-- Fim imagem 6 da galeria -->
+              <!-- Início imagem  7 da galerias-->
+              <div class="gallery col-6 col-md-3">
+                  <img src="./img/Selection/harry potter e as reliquias da morte.jpg" class="img-fluid" 
+                  alt="img-galeria">
+              </div>
+              <!-- Fim imagem 7 da galeria -->
+              <!-- Início imagem  8 da galerias-->
+              <div class="gallery col-6 col-md-3">
+                  <img src="./img/Selection/rainha vermelha.jpg" class="img-fluid" 
+                  alt="img-galeria">
+              </div>
+              <!-- Fim imagem 8 da galeria -->
+              <!-- Início imagem  9 da galerias-->
+              <div class="gallery col-6 col-md-3">
+                  <img src="./img/Selection/espada de vidro.jpg" class="img-fluid" 
+                  alt="img-galeria">
+              </div>
+              <!-- Fim imagem 9 da galeria -->
+              <!-- Início imagem  10 da galerias-->
+              <div class="gallery col-6 col-md-3">
+                  <img src="./img/Selection/a prisão do rei.jpg" class="img-fluid" 
+                  alt="img-galeria">
+              </div>
+              <!-- Fim imagem 10 da galeria -->
+              <!-- Início imagem  11 da galerias-->
+              <div class="gallery col-6 col-md-3">
+                  <img src="./img/Selection/tempestade de guerra.jpg" class="img-fluid" 
+                  alt="img-galeria">
+              </div>
+              <!-- Fim imagem 11 da galeria -->
+              <!-- Início imagem  12 da galerias-->
+              <div class="gallery col-6 col-md-3">
+                  <img src="./img/Selection/trono destruído.jpg" class="img-fluid" 
+                  alt="img-galeria">
+              </div>
+              <!-- Fim imagem 12 da galeria -->
+      
+              <!-- Início footer -->
+              <footer class="rodape">
+                  <div class="conteiner">
+                      <div class="row m-0">
+                          <!-- Início da logomarca -->
+                          <div class="col-md-4">
+                              <figure>
+                                  <img src="./img/Selection/logo 3.png" alt="logo-rodape" width="40%">
+                              </figure>
+                          </div>
+                          <!-- Fim da logomarca -->
+                          <!-- Início do texto rodape -->
+                          <div class="col-md-4">
+                              <div class="info-contato">
+                                  <p>email:</p>
+                                  <p><a href="mailto:example@corp.net">example@corp.net</a></p>
+                                  <p>Endereço:</p>
+                                  <p>Avenida do Prado, 123</p><br>
+                                  <p>Telefone:</p>
+                                  <p>+55 (11) 98888-1234</p>
+                              </div>
+                          </div>
+                          <!-- Fim do texto -->
+                          <!-- Início das mídias sociais -->
+                          <div class="col-md-4">
+                              <figure class="redes-sociais">
+                                  <a href="https://facebook.com"><img src="./img/Selection/facebook icon.png"></a>
+                                  <a href="https://instagram.com"><img src="./img/insta.png"></a>
+                                  <a href="https://youtube.com"><img src="./img/youtube.png"></a>
+                                  <a href="https://linkedin.com"><img src="./img/linkedin.png"></a>
+                              <br>
+                              <!-- Repetir opções do menu do Site -->
+                              <a href="index.html">Home</a><br>
+                              <a href="#">Livros</a><br>
+                              <a href="#">Biografia</a><br>
+                              <a href="#">Outras obras</a><br>
+                              <a href="#">Recomendações</a><br>
+                              <a href="#">Contato</a><br>
+                          </div>
+                          <!-- Fim das mídias sociais -->
+                          <div class="col-12">
+                              <p class="direitos">Direitos Autorais</p>
+                          </div>
+                          <!-- Fim direitos autorais -->
+                      </div>
+                  </div>
+              </footer>
+              <!-- Fim texto galeria-->
+          </div>
+      </div>
+  </div>            
+
 </body>
 
-<script type="text/javascript" src="./js/test.js"></script>
-
+<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript"  src="./js/script_menu.js"></script>
 
 </html>

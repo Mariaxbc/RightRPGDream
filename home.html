@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/ico/book.ico">
+    <title>Site de livros | BunesLibrary </title>
+</head>
+<body>
+    <!-- Aula 27/09/2022 -->
+    <!-- Início do Menu Responsivo -->
+    <header id="header">
+        <a id="logo" href="index.html"><img src="./img/Selection/logo 3.png" alt="Logo Bunes Library"></a>
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                <span id="hamburger"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li><a class="linkMenu" href="index.html">Home</a></li>
+                <li><a class="linkMenu" href="media.html">#Streaming</a></li>
+                <li><a class="linkMenu" href="livro.html">Livro</a></li>
+                <li><a class="linkMenu" href="biografia.html">Biografia</a></li>
+                <li><a class="linkMenu" href="outrasobras.html">Outras obras</a></li>
+                <li><a class="linkMenu" href="recomendações.html">Recomendações</a></li>
+                <li><a class="linkMenu" href="contato.html">Contato</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+    <!-- Fim do menu responsivo -->
+
+    <!-- Início do Carousel Página Principal -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="500">
+                <img src="./img/cyberpunk.png"
+                class="d-block w-100"
+                alt="..."
+                />
+
+            </div>
+        <div class="carousel-inner">
+            <div class="carousel-item" data-bs-interval="500">
+                <img src="./img/god of war.jpg_large"
+                class="d-block w-100"
+                alt="..."
+                />
+
+            </div>
+        <div class="carousel-inner">
+            <div class="carousel-item" data-bs-interval="0">
+                <img src="./img/osnf foto bar.jpg"
+                class="d-block w-100"
+                alt="..."
+                />
+        <div class="carousel-inner">
+            <div class="carousel-item" data-bs-interval="0">
+                <img src="./img/Stardew Valley.png"
+                class="d-block w-100"
+                alt="..."
+                />
+            </div>
+        </div>
+            <button
+                class="carousel-control-prev"
+                data-bs-target="#carouselExampleInterval"
+                type="button"
+                data-bs-slide="prev"
+            >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+            </button>
+            <button
+                class="carousel-control-next"
+                data-bs-target="#carouselExampleInterval"
+                type="button"
+                data-bs-slide="next"
+            >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+            </button>
+    </div>
+    <!-- Fim do Carousel da Página Principal-->
+    <!-- Início do Banner -->
+    <div class="section-banner-home">
+        <div class="container-fluid">
+            <div class="row m-0">
+                <div class="col-12 col-md-6">
+                    <figure>
+                        <img src="./img/Selection/the sun and her flowers.jpg" class="img-fluid" 
+                        alt="banner-home">
+
+                    </figure>
+                </div>
+                <div class="col-12 col-md-6">
+                    <section class="texto-banner d-none d-md-block">
+                        <h1>Venha conhecer nosso diferencial!</h1>
+                        <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus accusamus laudantium ipsa enim recusandae praesentium repellendus ex veniam nulla, sequi, nobis aspernatur, rem voluptatem alias exercitationem temporibus unde illo id.</p>
+                        <a href="introdução.html">Saiba mais...</a>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim Banner -->
+    <!-- Início Área Destaque-->
+    <div class="destaque">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <!-- Início da tag section com texto de destaque -->
+                <section class="col-12">
+                    <h2>Que tal conhecer nossos livros em destaque!</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam soluta velit, vero eaque rerum non quod tenetur? Iusto maiores aliquam earum et tempore! Nam rerum sapiente animi voluptatibus recusandae distinctio?</p>
+                </section>
+                <!-- Fim da tag section com o texto em destaque-->
+                <!-- Início Imagem 1-->
+                <div class="col-6 col-md-2 pr-0">
+                    <figure>
+                        <a href="livros.html"><img src="./img/Selection/acotar.jpg" 
+                        alt="Galeria" width="100%" ></a>
+                        <figcaption>Livro <br> Ano </figcaption>
+                    </figure>
+                </div>
+                <!--Fim imagem 1-->
+                <!-- Início Imagem 2-->
+                <div class="col-6 col-md-2 pr-0">
+                    <figure>
+                        <a href="livros.html"><img src="./img/Selection/corte de névoa e fúria.jpg" 
+                        alt="Galeria" width="100%"></a>
+                        <figcaption>Livro <br> Ano </figcaption>
+                    </figure>
+                </div>
+                <!--Fim imagem 2-->
+                <!-- Início Imagem 3-->
+                <div class="col-6 col-md-2 pr-0">
+                    <figure>
+                        <a href="livros.html"><img src="./img/Selection/corte de asas e ruínas.jpg" 
+                        alt="Galeria" width="100%"></a>
+                        <figcaption>Livro <br> Ano </figcaption>
+                    </figure>
+                </div>
+                <!--Fim imagem 3-->
+                <!-- Início Imagem 4-->
+                <div class="col-6 col-md-2 pr-0">
+                    <figure>
+                        <a href="livros.html"><img src="./img/Selection/corte de gelo e estrelas.jpg" 
+                        alt="Galeria" width="100%"></a>
+                        <figcaption>Livro <br> Ano </figcaption>
+                    </figure>
+                </div>
+                <!--Fim imagem 4-->
+                <!-- Início Imagem 5-->
+                <div class="col-6 col-md-2 pr-0">
+                    <figure>
+                        <a href="livros.html"><img src="./img/Selection/corte de chamas prateadas.jpg" 
+                        alt="Galeria" width="100%"></a>
+                        <figcaption>Livro <br> Ano </figcaption>
+                    </figure>
+                </div>
+                <!--Fim imagem 5-->
+                <!--Início saiba mais -->
+                <div class="col-12">
+                    <a href="#">Saiba Mais!</a>
+                </div>
+                <!--Fim saiba mais-->
+            </div>
+        </div>
+    </div>
+    <!-- Início área novidades -->
+    <div class="novidades">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Início texto novidades-->
+                <div class="col-md-6">
+                    <section class="text-body">
+                        <h2>Que tal conhecer nossas novidades!</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ut, sunt quaerat repudiandae temporibus magni quasi ea accusantium sequi eligendi voluptatum harum ex, fugit, excepturi deserunt distinctio perspiciatis deleniti! Illum.</p>
+                        <a class="btn-banner" href="#" target="_blank">Saiba Mais!</a>
+                    </section>
+                </div>
+                <!-- Fim texto novidades -->
+                <!-- Início imagem novidades -->
+                <div class="col-md-6">
+                    <figure>
+                        <img src="./img/Selection/mocinha lendo no ar livre.jpg" class="img-fluid" 
+                        alt="banner-home">
+                    </figure>
+                </div>
+                <!-- Fim imagem novidades -->
+            </div>
+        </div>
+    </div>
+    <!-- Início galeria -->
+    <div class="galeria d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <!-- Início texto galerias -->
+                <div class="col-12">
+                    <section class="texto-galeria">
+                        <h2>Conheça nossa galeria!</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus optio nihil rerum, natus aliquam veritatis ullam quidem corporis delectus doloribus, eos quia deleniti expedita? Sunt corporis harum rerum minus repellat?</p>
+                    </section>
+                </div>
+                <!-- Fim texto galerias -->
+                <!-- Início imagem  1 da galerias-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/Selection/harry potter e a pedra filosofal.jpg" class="img-fluid" 
+                    alt="img-galeria">
+                </div>
+                <!-- Fim imagem 1 da galeria -->
+                <!-- Início imagem  2 da galerias-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/Selection/harry potter e a camara secreta.jpg" class="img-fluid" 
+                    alt="img-galeria">
+                </div>
+                <!-- Fim imagem 2 da galeria -->
+                <!-- Início imagem  3 da galerias-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/Selection/harry potter e o prisioneiro de azkaban.jpg" class="img-fluid" 
+                    alt="img-galeria">
+                </div>
+                <!-- Fim imagem 3 da galeria -->
+                <!-- Início imagem  4 da galerias-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/Selection/harry potter e o calice de fogo.jpg" class="img-fluid" 
+                    alt="img-galeria">
+                </div>
+                <!-- Fim imagem 4 da galeria -->
+                <!-- Início imagem  5 da galerias-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/Selection/harry potter e a ordem da fenix.jpg" class="img-fluid" 
+                    alt="img-galeria">
+                </div>
+                <!-- Fim imagem 5 da galeria -->
+                <!-- Início imagem  6 da galerias-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/Selection/harry potter e o enigma do principe.jpg" class="img-fluid" 
+                    alt="img-galeria">
+                </div>
+                <!-- Fim imagem 6 da galeria -->
+                <!-- Início imagem  7 da galerias-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/Selection/harry potter e as reliquias da morte.jpg" class="img-fluid" 
+                    alt="img-galeria">
+                </div>
+                <!-- Fim imagem 7 da galeria -->
+                <!-- Início imagem  8 da galerias-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/Selection/rainha vermelha.jpg" class="img-fluid" 
+                    alt="img-galeria">
+                </div>
+                <!-- Fim imagem 8 da galeria -->
+                <!-- Início imagem  9 da galerias-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/Selection/espada de vidro.jpg" class="img-fluid" 
+                    alt="img-galeria">
+                </div>
+                <!-- Fim imagem 9 da galeria -->
+                <!-- Início imagem  10 da galerias-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/Selection/a prisão do rei.jpg" class="img-fluid" 
+                    alt="img-galeria">
+                </div>
+                <!-- Fim imagem 10 da galeria -->
+                <!-- Início imagem  11 da galerias-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/Selection/tempestade de guerra.jpg" class="img-fluid" 
+                    alt="img-galeria">
+                </div>
+                <!-- Fim imagem 11 da galeria -->
+                <!-- Início imagem  12 da galerias-->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/Selection/trono destruído.jpg" class="img-fluid" 
+                    alt="img-galeria">
+                </div>
+                <!-- Fim imagem 12 da galeria -->
+        
+                <!-- Início footer -->
+                <footer class="rodape">
+                    <div class="conteiner">
+                        <div class="row m-0">
+                            <!-- Início da logomarca -->
+                            <div class="col-md-4">
+                                <figure>
+                                    <img src="./img/Selection/logo 3.png" alt="logo-rodape" width="40%">
+                                </figure>
+                            </div>
+                            <!-- Fim da logomarca -->
+                            <!-- Início do texto rodape -->
+                            <div class="col-md-4">
+                                <div class="info-contato">
+                                    <p>email:</p>
+                                    <p><a href="mailto:example@corp.net">example@corp.net</a></p>
+                                    <p>Endereço:</p>
+                                    <p>Avenida do Prado, 123</p><br>
+                                    <p>Telefone:</p>
+                                    <p>+55 (11) 98888-1234</p>
+                                </div>
+                            </div>
+                            <!-- Fim do texto -->
+                            <!-- Início das mídias sociais -->
+                            <div class="col-md-4">
+                                <figure class="redes-sociais">
+                                    <a href="https://facebook.com"><img src="./img/Selection/facebook icon.png"></a>
+                                    <a href="https://instagram.com"><img src="./img/insta.png"></a>
+                                    <a href="https://youtube.com"><img src="./img/youtube.png"></a>
+                                    <a href="https://linkedin.com"><img src="./img/linkedin.png"></a>
+                                <br>
+                                <!-- Repetir opções do menu do Site -->
+                                <a href="index.html">Home</a><br>
+                                <a href="#">Livros</a><br>
+                                <a href="#">Biografia</a><br>
+                                <a href="#">Outras obras</a><br>
+                                <a href="#">Recomendações</a><br>
+                                <a href="#">Contato</a><br>
+                            </div>
+                            <!-- Fim das mídias sociais -->
+                            <div class="col-12">
+                                <p class="direitos">Direitos Autorais</p>
+                            </div>
+                            <!-- Fim direitos autorais -->
+                        </div>
+                    </div>
+                </footer>
+                <!-- Fim texto galeria-->
+            </div>
+        </div>
+    </div>            
+
+</body>
+
+<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript"  src="./js/script_menu.js"></script>
+
+</html>
