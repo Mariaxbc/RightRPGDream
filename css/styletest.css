@@ -75,7 +75,7 @@ a {
         width: 15em;
         top: 70px;
         right: 0px;
-        background: #fff;
+        background: #121A3D;
         transition: 0.6s;
         z-index: 1000;
         height: 0px;
@@ -87,7 +87,7 @@ a {
         padding-top: 30px;
         padding-bottom: 0px;
         margin: 0 1rem;
-        border-bottom: 2px solid rgba(255, 255, 255, 0.5);        
+        border-bottom: 2px solid #121A3D;        
     }
     #nav.active #menu {
         height: calc(100vh - 70px); /* em PX é o tamanho da faixa do menu*/
@@ -177,7 +177,7 @@ a {
     position: relative;
 }
 .heading span {
-    background: #9e6600 none repeat scroll 0 0;
+    background: #fff none repeat scroll 0 0;
     bottom: -2px;
     height: 3px;
     left: 0;
@@ -200,12 +200,12 @@ a {
     width: 100%;
 }
 .formbutton[type="submit"] {
-    -moz-box-shadow: inset 0px 1px 0px 0px #fcab0e;
-    -webkit-box-shadow: inset 0px 1px 0px 0px #fcab0e;
-    box-shadow: inset 0px 1px 0px 0px #fcab0e;
-    background-color: #72583f; 
+    -moz-box-shadow: inset 0px 1px 0px 0px #6ae0fd;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #6ae0fd;
+    box-shadow: inset 0px 1px 0px 0px #6ae0fd;
+    background-color: #121A3D; 
     display: inline-block;
-    border: 1px solid #4f5c04;
+    border: 1px solid #205f6e;
     border-radius: 25px;
     color: #fff;
     font-size: 16px;
@@ -217,7 +217,7 @@ a {
     width: 30%;
 }
 .formbutton:hover {
-    background-color: #fcab0e;
+    background-color: #6ae0fd;
 }
 .formbutton:active {
     position: relative;
@@ -413,12 +413,12 @@ a {
     text-transform: uppercase;
 }
 .heading {
-    border-bottom: 1px solid #fcab0e;
+    border-bottom: 1px solid #6ae0fd;
     padding-bottom: 9px;
     position: relative;
 }
 .heading span {
-    background: #9e6600 none repeat scroll 0 0;
+    background: #fff none repeat scroll 0 0;
     bottom: -2px;
     height: 3px;
     left: 0;
@@ -441,12 +441,12 @@ a {
     width: 100%;
 }
 .formbutton[type="submit"] {
-    -moz-box-shadow: inset 0px 1px 0px 0px #fcab0e;
-    -webkit-box-shadow: inset 0px 1px 0px 0px #fcab0e;
-    box-shadow: inset 0px 1px 0px 0px #fcab0e;
-    background-color: #72583f; 
+    -moz-box-shadow: inset 0px 1px 0px 0px #6ae0fd;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #6ae0fd;
+    box-shadow: inset 0px 1px 0px 0px #6ae0fd;
+    background-color: #121A3D; 
     display: inline-block;
-    border: 1px solid #4f5c04;
+    border: 1px solid #205f6e;
     border-radius: 25px;
     color: #fff;
     font-size: 16px;
@@ -458,7 +458,7 @@ a {
     width: 30%;
 }
 .formbutton:hover {
-    background-color: #fcab0e;
+    background-color: #6ae0fd;
 }
 .formbutton:active {
     position: relative;

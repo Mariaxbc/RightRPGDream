@@ -4,41 +4,318 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/styletest.css">
     <link rel="shortcut icon" href="./img/natural-one-d-dice-roll-icon-180552779.ico">
     <title> Site de RPG | RightRPGDream </title>
 </head>
 <body>   
-    <!--Início do menu responsivo--> 
+    <!-- Aula 27/09/2022 -->
+    <!-- Início do Menu Responsivo -->
     <header id="header">
-        <a id="logo" href="index.html"><img src="./img/RightRPGDream logo.ico" alt="Logo RightRPGDream"></a>
-        <nav id="nav">
-            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
-                <span id="hamburger"></span>
-            </button>
-            <ul id="menu" role="menu">
-                <li><a class="linkMenu" href="index.html">Home</a></li>
-                <li><a class="linkMenu" href="contato.html">Contato</a></li>
-                <li><a class="linkMenu" href="loja.html">Loja</a></li>
-                <li><a class="linkMenu" href="streaming.html">#Streaming</a></li>
-                <li><a class="linkMenu" href="recomendações.html">Recomendações</a></li>
+      <a id="logo" href="index.html"><img src="./img/RightRPGDream logo.ico" alt="Logo RightRPGDream"></a>
+      <nav id="nav">
+          <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+              <span id="hamburger"></span>
+          </button>
+          <ul id="menu" role="menu">
+              <li><a class="linkMenu" href="index.html">Home</a></li>
+              <li><a class="linkMenu" href="contato.html">Contato</a></li>              
+              <li><a class="linkMenu" href="streaming.html">#Streaming</a></li>             
+          </ul>
+      </nav>
+  </header>
+  <!-- Fim do menu responsivo -->
+  <!-- Início do Carousel Página Principal -->
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="0">
+              <img src="./img/cyberpunk.png"
+              class="d-block w-100"
+              alt="..."
+              />
 
-            </ul>
-        </nav>
-    </header>
-    <!-- Fim do menu responsivo -->
-    <!-- Início do carrosel da página principal -->
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="500">
-                    <img src="./img/cyberpunk.png"
-                    alt="..."
-                    />
-            </div>
-        </div>    
-    
-</div>
-<!-- Fim do Carousel da Página Principal-->
-    
+          </div>
+          <div class="carousel-item" data-bs-interval="0">
+              <img src="./img/god of war.jpg_large"
+              class="d-block w-100"
+              alt="..."
+              />
+
+          </div>      
+          <div class="carousel-item" data-bs-interval="0">
+              <img src="./img/osnf foto bar.jpg"
+              class="d-block w-100"
+              alt="..."
+              />
+        
+      </div>
+          <button
+              class="carousel-control-prev"
+              data-bs-target="#carouselExampleInterval"
+              type="button"
+              data-bs-slide="prev"
+          >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+          </button>
+          <button
+              class="carousel-control-next"
+              data-bs-target="#carouselExampleInterval"
+              type="button"
+              data-bs-slide="next"
+          >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Próximo</span>
+          </button>
+  </div>
+  <!-- Fim do Carousel da Página Principal-->
+  <!-- Início do Banner -->
+  <div class="section-banner-home">
+      <div class="container-fluid">
+          <div class="row m-0">
+              <div class="col-12 col-md-6">
+                  <figure>
+                      <img src="./img/D&D.jpg" class="img-fluid" 
+                      alt="banner-home">
+
+                  </figure>
+              </div>
+              <div class="col-12 col-md-6">
+                  <section class="texto-banner d-none d-md-block">
+                      <h1>Se aventure conosco!</h1>
+                      <p class="d-none d-md-block">Os RPG's, ou Role-Playing Game, são jogos nos quais você consegue explorar, fazer missões e se aventurar com vários amigos em um novo mundo fictício. Você pode jogar de forma online ou com tabuleiros, na segunda situação é necessário escrever um roteiro sobre quem são os personagens e o que irá acontecer de acordo com o rumo dos personagens que são controlados por seus amigos. Para saber mais basta apertar o botão abaixo.</p>
+                      <a href="#">Saiba mais...</a>
+                  </section>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Fim Banner -->
+  <!-- Início Área Destaque-->
+  <div class="destaque">
+      <div class="container">
+          <div class="row d-flex justify-content-center">
+              <!-- Início da tag section com texto de destaque -->
+              <section class="col-12">
+                  <h2>Conheça alguns desses jogos! </h2>
+                  <p> Aqui você irá encontrar alguns exemplos desses jogos, que definitivamente valem a pena gastar um tempinho se divertindo com eles, alguns multiplayers, outros singleplayers, ou até mesmo os dois!</p>
+              </section>
+              <!-- Fim da tag section com o texto em destaque-->
+              <!-- Início Imagem 1-->
+              <div class="col-6 col-md-2 pr-0">
+                  <figure>
+                      <a href="Rpg.html"><img src="./img/genshim.jpg" 
+                      alt="Galeria" width="100%" ></a>
+                      <figcaption>Jogo: Genshim Impact <br> Ano: 2020 </figcaption>
+                  </figure>
+              </div>
+              <!--Fim imagem 1-->
+              <!-- Início Imagem 2-->
+              <div class="col-6 col-md-2 pr-0">
+                  <figure>
+                      <a href="Rpg.html"><img src="./img/elden ring.jpg" 
+                      alt="Galeria" width="100%"></a>
+                      <figcaption>Jogo: Elden Ring <br> Ano: 2022 </figcaption>
+                  </figure>
+              </div>
+              <!--Fim imagem 2-->
+              <!-- Início Imagem 3-->
+              <div class="col-6 col-md-2 pr-0">
+                  <figure>
+                      <a href="Rpg.html"><img src="./img/calamidade.jpg" 
+                      alt="Galeria" width="100%"></a>
+                      <figcaption>Jogo: RPG Calamidade <br> Ano: 2021</figcaption>
+                  </figure>
+              </div>
+              <!--Fim imagem 3-->
+              <!-- Início Imagem 4-->
+              <div class="col-6 col-md-2 pr-0">
+                  <figure>
+                      <a href="Rpg.html"><img src="./img/lol.jpg" 
+                      alt="Galeria" width="100%"></a>
+                      <figcaption>Jogo: League of Legends <br> Ano: 2009 </figcaption>
+                  </figure>
+              </div>
+              <!--Fim imagem 4-->
+              <!-- Início Imagem 5-->
+              <div class="col-6 col-md-2 pr-0">
+                  <figure>
+                      <a href="Rpg.html"><img src="./img/Stardew Valley.png" 
+                      alt="Galeria" width="100%"></a>
+                      <figcaption>Jogo: Stardew Valley<br> Ano: 2016 </figcaption>
+                  </figure>
+              </div>
+              <!--Fim imagem 5-->
+              <!--Início saiba mais -->
+              <div class="col-12">
+                  <a href="#">Saiba Mais!</a>
+              </div>
+              <!--Fim saiba mais-->
+          </div>
+      </div>
+  </div>
+  <!-- Início área novidades -->
+  <div class="novidades">
+      <div class="container-fluid">
+          <div class="row">
+              <!-- Início texto novidades-->
+              <div class="col-md-6">
+                  <section class="text-body">
+                      <h2>Veja nossos recomendados!</h2>
+                      <p>Separamos a seguir vários RPG's, nos quais você pode jogar, recomendar para seus amigos ou apenas assistir. A experiência com certeza irá valer a pena, você pode sentir uma mistura de emoções, criar amizades e inimizades, tudo depende de você, se quiser mais recomendações basta apertar o botão abaixo!</p>
+                      <a class="btn-banner" href="#" target="_blank">Saiba Mais!</a>
+                  </section>
+              </div>
+              <!-- Fim texto novidades -->
+              <!-- Início imagem novidades -->
+              <div class="col-md-6">
+                  <figure>
+                      <img src="./img/pessoas jogando rpg.jpg" class="img-fluid" 
+                      alt="banner-home">
+                  </figure>
+              </div>
+              <!-- Fim imagem novidades -->
+          </div>
+      </div>
+  </div>
+  <!-- Início galeria -->
+  <div class="galeria d-flex align-items-center">
+      <div class="container">
+          <div class="row">
+              <!-- Início texto galerias -->
+              <div class="col-12">
+                  <section class="texto-galeria">
+                      <h2>Conheça nossa galeria!</h2>
+                      <p>Além de termos explicado e retratado nossas recomendações, nós também temos uma loja, na qual vendemos o kit, um livro de regras ou até mesmo roupas relacionadas aos diferentes RPG's, aproveite nossos ótimos preços!!!</p>
+                  </section>
+              </div>
+              <!-- Fim texto galerias -->
+              <!-- Início imagem  1 da galerias-->
+              <div class="gallery col-6 col-md-3">
+                  <img src="./img/moletom ahlevo.png" class="img-fluid" 
+                  alt="img-galeria">
+              </div>
+              <!-- Fim imagem 1 da galeria -->
+              <!-- Início imagem  2 da galerias-->
+              <div class="gallery col-6 col-md-3">
+                  <img src="./img/moletom alheios.jpeg" class="img-fluid" 
+                  alt="img-galeria">
+              </div>
+              <!-- Fim imagem 2 da galeria -->
+              <!-- Início imagem  3 da galerias-->
+              <div class="gallery col-6 col-md-3">
+                  <img src="./img/moletom parede.png" class="img-fluid" 
+                  alt="img-galeria">
+              </div>
+              <!-- Fim imagem 3 da galeria -->
+              <!-- Início imagem  4 da galerias-->
+              <div class="gallery col-6 col-md-3">
+                  <img src="./img/moletom arthur.png" class="img-fluid" 
+                  alt="img-galeria">
+              </div>
+              <!-- Fim imagem 4 da galeria -->
+              <!-- Início imagem  5 da galerias-->
+              <div class="gallery col-6 col-md-3">
+                  <img src="./img/moletom carina.png" class="img-fluid" 
+                  alt="img-galeria">
+              </div>
+              <!-- Fim imagem 5 da galeria -->
+              <!-- Início imagem  6 da galerias-->
+              <div class="gallery col-6 col-md-3">
+                  <img src="./img/moletom kaiser.png" class="img-fluid" 
+                  alt="img-galeria">
+              </div>
+              <!-- Fim imagem 6 da galeria -->
+              <!-- Início imagem  7 da galerias-->
+              <div class="gallery col-6 col-md-3">
+                  <img src="./img/moletom outro lado.png" class="img-fluid" 
+                  alt="img-galeria">
+              </div>
+              <!-- Fim imagem 7 da galeria -->
+              <!-- Início imagem  8 da galerias-->
+              <div class="gallery col-6 col-md-3">
+                  <img src="./img/moletom dante.png" class="img-fluid">
+              </div>
+              <!-- Fim imagem 8 da galeria -->
+              <!-- Início imagem  9 da galerias-->
+              <div class="gallery col-6 col-md-3">
+                  <img src="./img/moletom joui.png" class="img-fluid" 
+                  alt="img-galeria">
+              </div>
+              <!-- Fim imagem 9 da galeria -->
+              <!-- Início imagem  10 da galerias-->
+              <div class="gallery col-6 col-md-3">
+                  <img src="./img/moletom conhecimento.png" class="img-fluid" 
+                  alt="img-galeria">
+              </div>
+              <!-- Fim imagem 10 da galeria -->
+              <!-- Início imagem  11 da galerias-->
+              <div class="gallery col-6 col-md-3">
+                  <img src="./img/moletom bisteca.png" class="img-fluid" 
+                  alt="img-galeria">
+              </div>
+              <!-- Fim imagem 11 da galeria -->
+              <!-- Início imagem  12 da galerias-->
+              <div class="gallery col-6 col-md-3">
+                  <img src="./img/moletom chico.png" class="img-fluid" 
+                  alt="img-galeria">
+              </div>
+              <!-- Fim imagem 12 da galeria -->
+      
+              <!-- Início footer -->
+              <footer class="rodape">
+                  <div class="conteiner">
+                      <div class="row m-0">
+                          <!-- Início da logomarca -->
+                          <div class="col-md-4">
+                              <figure>
+                                  <img src="./img/RightRPGDream.png" alt="logo-rodape" width="40%">
+                              </figure>
+                          </div>
+                          <!-- Fim da logomarca -->
+                          <!-- Início do texto rodape -->
+                          <div class="col-md-4">
+                              <div class="info-contato">
+                                  <p>email:</p>
+                                  <p><a href="mailto:example@corp.net">RightRPGDream@gmail.com</a></p>
+                                  <p>Endereço:</p>
+                                  <p>Avenida do Prado, 123</p><br>
+                                  <p>Telefone:</p>
+                                  <p>+55 (11) 98888-1234</p>
+                              </div>
+                          </div>
+                          <!-- Fim do texto -->
+                          <!-- Início das mídias sociais -->
+                          <div class="col-md-4">
+                              <figure class="redes-sociais">
+                                  <a href="https://facebook.com"><img src="./img/face.png"></a>
+                                  <a href="https://instagram.com"><img src="./img/insta.png"></a>
+                                  <a href="https://youtube.com"><img src="./img/youtube.png"></a>
+                                  <a href="https://linkedin.com"><img src="./img/linkedin.png"></a>
+                        
+                              <!-- Repetir opções do menu do Site -->
+                              <br>
+                              <a href="index.html">Home</a><br>
+                              <a href="contato.html">Contato</a><br>                              
+                              <a href="streaming.html">#Streaming</a><br>                                                          
+                          </div>
+                          <!-- Fim das mídias sociais -->
+                          <div class="col-12">
+                              <p class="direitos">Direitos Autorais</p>
+                          </div>
+                          <!-- Fim direitos autorais -->
+                      </div>
+                  </div>
+              </footer>
+              <!-- Fim texto galeria-->
+          </div>
+      </div>
+  </div>            
+
 </body>
+
+<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript"  src="./js/script_menu.js"></script>
+
 </html>
